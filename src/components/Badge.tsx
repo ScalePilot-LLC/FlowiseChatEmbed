@@ -62,7 +62,7 @@ export const Badge = (props: Props) => {
           </a>
         </span>
       </Show>
-      <Show when={props.footer?.showFooter === false}>
+      {/* <Show when={props.footer?.showFooter === false}>
         <span
           class="w-full text-center px-[10px] pt-[6px] pb-[10px] m-auto text-[13px]"
           style={{
@@ -70,7 +70,7 @@ export const Badge = (props: Props) => {
             'background-color': props.badgeBackgroundColor ?? '#ffffff',
           }}
         />
-      </Show>
+      </Show> */}
     </>
   );
 };
