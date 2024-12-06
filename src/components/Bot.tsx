@@ -1393,7 +1393,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
 
         {props.showTitle ? (
           <div
-            class="flex flex-row items-center w-full h-[50px] absolute top-0 left-0 z-10"
+            class="flex flex-row items-center w-full h-[70px] absolute top-0 left-0 z-10"
             style={{
               background: props.bubbleBackgroundColor,
               color: props.bubbleTextColor,
@@ -1425,7 +1425,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         <div class="flex flex-col w-full h-full justify-start z-0">
           <div
             ref={chatContainer}
-            class="overflow-y-scroll flex flex-col flex-grow min-w-full w-full px-3 pt-[70px] relative scrollable-container chatbot-chat-view scroll-smooth"
+            class="overflow-y-scroll flex flex-col flex-grow min-w-full w-full px-3 pt-[90px] relative scrollable-container chatbot-chat-view scroll-smooth"
           >
             <For each={[...messages()]}>
               {(message, index) => {
